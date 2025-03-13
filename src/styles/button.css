@@ -1,0 +1,22 @@
+.generator-button {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  height: 64px;
+  width: 64px;
+  border-radius: 50%;
+  background-color: var(--neon-green);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: box-shadow 300ms ease;
+}
+
+.generator-button:hover {
+  box-shadow: 0px 0px 40px 0px #53ffaa;
+}
+.generator-button:disabled {
+  opacity: 0.75;
+}

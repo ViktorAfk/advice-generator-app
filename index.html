@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link href="/src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advice generator</title>
+  </head>
+  <body>
+    <main>
+      <div class="advice-block" id="app">
+        <div id="advice"></div>
+        <img
+          class="decoration-img"
+          src="/pattern-divider-desktop.svg"
+          alt="decoration lines with horizontal equal sign"
+        />
+        <button type="button" id="generate-advice" class="generator-button">
+          <img
+            width="24px"
+            height="24px"
+            src="/icon-dice.svg"
+            alt="Dice image with number five"
+          />
+        </button>
+      </div>
+    </main>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
