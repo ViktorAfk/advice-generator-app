@@ -1,7 +1,7 @@
 .advice-block {
   width: 100%;
   max-width: 540px;
-  height: 315px;
+  min-height: 315px;
   place-self: center;
   padding: 40px 24px 64px;
   background-color: var(--dark-grayish-blue);
@@ -38,7 +38,7 @@
 @media (min-width: 768px) {
   .advice-block {
     width: 540px;
-    height: 332px;
+    min-height: 332px;
     padding: 48px 48px 72px;
   }
 
